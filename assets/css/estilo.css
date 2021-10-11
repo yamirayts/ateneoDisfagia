@@ -1,0 +1,68 @@
+body {
+  font-family: "Baloo Tammudu 2", cursive;
+  background-color: #a9e2ce;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23292f2d' fill-opacity='0.15' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Pagina Principal */
+
+nav {
+  margin-top: 20px;
+  padding: 0px 25px;
+}
+
+.botones {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1f 1f;
+  background-color: rgba(158, 158, 154, 0.445);
+  padding: 10px 20px;
+  height: auto;
+  width: auto;
+}
+
+.botones__individual {
+  margin: 5px 5px;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: rgba(106, 128, 119, 0.452);
+  padding-bottom: 10px;
+  width: auto;
+}
+
+#datos {
+  margin-top: 30px;
+  background-color: rgba(92, 91, 91, 0.295);
+  padding: 5px 5px;
+  font-family: "Baloo Tammudu 2", cursive;
+  width: auto;
+  height: auto;
+}
+
+.resultado {
+  margin-top: 15px;
+  background-color: rgba(214, 246, 247, 0.473);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tamano {
+  width: auto;
+  height: auto;
+}
+
+#datoParticular iframe {
+  height: 100%;
+  width: 100%;
+}
