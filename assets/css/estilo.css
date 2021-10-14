@@ -33,6 +33,7 @@ nav {
   height: auto;
   padding-bottom: 10px;
   width: auto;
+  margin-top: 20px;
 }
 
 #datos {
@@ -75,4 +76,15 @@ img {
   width: 300px;
   height: 200px;
   margin-top: 20px;
+}
+
+#biblio {
+  margin-left: 10px;
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+#imgNutri {
+  height: 200px;
+  width: 300px;
 }
