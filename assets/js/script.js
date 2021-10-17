@@ -14,9 +14,10 @@ $(document).ready(function () {
     $("#datoParticular").append(`
                                 <img src="./assets/documentos/eva1.jpg" alt="">
                                 <img src="./assets/documentos/eva2.jpg" alt="">
+                                <div>
                                 <a target="_blank" href="./assets/documentos/Evaluacion.pdf" download="EvaluacionDeLaDeglucion"><button id="Integrante" type="button" class="btn btn-danger botones__individual col-6 col-sm-2">
                                 Descargar
-                            </button></a>
+                            </button></a></div>
                                     `);
   });
 
